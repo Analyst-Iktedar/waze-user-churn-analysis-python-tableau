@@ -25,10 +25,10 @@ not_null_df.describe()
 null_df['device'].value_counts()
 
 # Calculate % of iPhone nulls and Android nulls
-null_df['device'].value_counts(normalize=True)
+null_df['device'].value_counts(normalize=True) * 100
 
 # Calculate % of iPhone users and Android users in full dataset
-df['device'].value_counts(normalize=True)
+df['device'].value_counts(normalize=True) * 100
 
 # Calculate counts of churned vs. retained
 print(df['label'].value_counts())
