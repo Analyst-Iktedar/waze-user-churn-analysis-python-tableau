@@ -68,20 +68,6 @@ Churned users appear to form a distinct behavioural cluster — high-mileage, in
 
 ---
 
-## 📁 Repository Structure
-
-```
-waze-churn-analysis/
-│
-├── data/               # Raw and cleaned datasets
-├── notebooks/          # EDA and analysis notebooks
-├── visualisations/     # Charts and dashboard exports
-├── reports/            # Executive summaries and stakeholder reports
-└── README.md
-```
-
----
-
 ## 🤝 Prepared For
 
 **Waze Leadership Team**
